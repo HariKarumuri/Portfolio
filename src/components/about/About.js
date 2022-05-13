@@ -40,6 +40,7 @@ const About = () => {
               <li>figma</li>
               <li>canva</li>
               <li>UI/UX Design</li>
+              <li>Fire-base</li>
 
             </ul>
           </div>

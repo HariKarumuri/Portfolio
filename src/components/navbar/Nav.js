@@ -18,16 +18,16 @@ const Nav = () => {
     <div className={ `collapse navbar-collapse ${HamShow?"show":""}   `}   >
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-         <Link to="/" className="nav-link active pe-4" aria-current="page" >Home</Link> 
+         <Link to="/Portfolio" className="nav-link active pe-4" aria-current="page" >Home</Link> 
         </li>
         <li className="nav-item">
-          <Link to='/about' className="nav-link pe-4 " aria-current="page" >About</Link>
+          <Link to='/Portfolio/about' className="nav-link pe-4 " aria-current="page" >About</Link>
         </li>
         <li className="nav-item">
-          <Link to='/portfolio' className="nav-link pe-4 " aria-current="page" >Portfolio</Link>
+          <Link to='/Portfolio/portfolio' className="nav-link pe-4 " aria-current="page" >Portfolio</Link>
         </li>
         <li className="nav-item">
-          <Link to='/contact' className="nav-link pe-4" aria-current="page" >Contact</Link>
+          <Link to='/Portfolio/contact' className="nav-link pe-4" aria-current="page" >Contact</Link>
         </li>
        
         

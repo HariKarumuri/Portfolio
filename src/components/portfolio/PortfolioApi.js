@@ -12,7 +12,7 @@ const Data = [
     id: 2,
     title: "login page",
     des: "a simple login page!! to show my good work in css 🙌👍",
-    language: "CSS",
+    language: "css",
     link: "https://harikarumuri.github.io/login-page-project3/",
     image:
       "https://static.vecteezy.com/system/resources/thumbnails/001/991/652/small_2x/sign-in-page-flat-design-concept-illustration-icon-account-login-user-login-abstract-metaphor-can-use-for-landing-page-mobile-app-ui-posters-banners-free-vector.jpg",
@@ -78,6 +78,14 @@ const Data = [
     link: "https://harikarumuri.github.io/DayNight-project/",
     image:
       "https://st2.depositphotos.com/1000874/7064/i/600/depositphotos_70640587-stock-photo-field-green-field-in-day.jpg",
+  },
+  {
+    id:10,
+    title: "Petsy|e-commerse for pets",
+    des:"a place where you can add your fav pets to a folder using REDUX TOOLKIT 🎇🎆🎈",
+    language:"react",
+    link:"https://harikarumuri.github.io/Petsy/",
+    image:"https://previews.123rf.com/images/damedeeso/damedeeso1302/damedeeso130200030/17986300-shopping-dog.jpg",
   },
 ];
 export default Data;

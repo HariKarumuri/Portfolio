@@ -11,15 +11,15 @@ import Home from "./home";
 
 function App() {
   return (
-    <Router>
+    <Router >
       <div className="App">
         <Navbar />
         <Routes>
-          <Route exact path="/" index element={<Home />} />
-          <Route exact path="/header" element={<Header />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/portfolio" element={<Portfolio />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/Portfolio" index element={<Home />} />
+          <Route exact path="/Portfolio/header" element={<Header />} />
+          <Route exact path="/Portfolio/about" element={<About />} />
+          <Route exact path="/Portfolio/portfolio" element={<Portfolio />} />
+          <Route exact path="/Portfolio/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
