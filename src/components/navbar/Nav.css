@@ -14,3 +14,6 @@
 .nav-link:hover{
   color: var(--primary-green) !important;
 }
+.active{
+  color: var(--primary-green) !important;
+}
