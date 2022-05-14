@@ -4,7 +4,7 @@ const Categories = ({ filterItems, category }) => {
   return (
     <>
       <h5 className="text-center m-3 text-white">Filter by language</h5>
-      <div className="d-flex gap-3 justify-content-center align-items-center m-3">
+      <div className="d-flex gap-3 justify-content-center align-items-center ">
         {category.map((item,index) => {
           return (
             <button className="btn primary-green text-white link-btn text-capitalize "  

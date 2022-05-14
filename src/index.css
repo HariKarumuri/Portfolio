@@ -47,7 +47,9 @@ a{
 
 /*-------------------small screen---------------------- */
 @media screen and (min-width : 600px){
-    
+    body{
+      overflow-x: hidden ;
+    }
 }
 
 
