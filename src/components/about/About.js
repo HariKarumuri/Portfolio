@@ -17,14 +17,16 @@ const About = () => {
               <li>C</li>
               <li>Java</li>
               <li>JavaScript</li>
+              <li>python</li>
               <li>html</li>
               <li>css</li>
-              <li>python</li>
+              
             </ul>
           </div>
           <div className="col d-flex flex-column ">
             <p className="text-white">frameWorks</p>
             <ul>
+              <li>express</li>
               <li>React js</li>
               <li>node js</li>
               <li>bootstrap</li>
