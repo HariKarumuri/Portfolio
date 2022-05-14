@@ -87,5 +87,13 @@ const Data = [
     link:"https://harikarumuri.github.io/Petsy/",
     image:"https://previews.123rf.com/images/damedeeso/damedeeso1302/damedeeso130200030/17986300-shopping-dog.jpg",
   },
+  {
+    id:11,
+    title:"Code of Statistical methods and Probability",
+    des:"In this code you will find Coefficient of Correlation(R) | Equation of regression lines |Z (x-y) |Mean of X,Y,Z |Standard Deviation of X,Y,Z",
+    language:"c",
+    link:"https://github.com/HariKarumuri/probability-solver",
+    image:"https://miro.medium.com/max/1200/1*N1-K-A43_98pYZ27fnupDA.jpeg",
+  }
 ];
 export default Data;
