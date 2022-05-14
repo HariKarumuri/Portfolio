@@ -1,0 +1,13 @@
+.topArrow{
+  color: var(--primary-green);
+  position:absolute;
+  top:0%;
+  right: 0%;
+  margin-right: 2rem;
+  font-size: 2rem;
+
+}
+.arrowContainer{
+  position: relative;
+  height: 4rem;
+}
