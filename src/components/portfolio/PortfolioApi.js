@@ -94,6 +94,14 @@ const Data = [
     language:"c",
     link:"https://github.com/HariKarumuri/probability-solver",
     image:"https://miro.medium.com/max/1200/1*N1-K-A43_98pYZ27fnupDA.jpeg",
-  }
+  },
+  {
+    id:12,
+    title:"birthday Remainder app using React js",
+    des:"just a couple of birthdays which are being pulled from a random api 🙄😶😪",
+    language:"react",
+    link:"https://houndforce-birthdayremainder.netlify.app/",
+    image:"https://cdn.windowsreport.com/wp-content/uploads/2021/05/birthday-886x590.jpg",
+  },
 ];
 export default Data;
