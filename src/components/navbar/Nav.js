@@ -31,7 +31,7 @@ const Nav = () => {
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <NavLink
-                    to="/Portfolio/"
+                    to="/"
                     exact
                     className="nav-link pe-4"
                     aria-current="page"
@@ -44,7 +44,7 @@ const Nav = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/Portfolio/about"
+                    to="/about"
                     className="nav-link pe-4 "
                     aria-current="page"
                     activeClassName="active"
@@ -57,7 +57,7 @@ const Nav = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/Portfolio/portfolio"
+                    to="/portfolio"
                     className="nav-link pe-4 "
                     aria-current="page"
                     activeClassName="active"
@@ -70,7 +70,7 @@ const Nav = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/Portfolio/contact"
+                    to="/contact"
                     className="nav-link pe-4"
                     aria-current="page"
                     activeClassName="active"
