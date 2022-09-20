@@ -6,12 +6,13 @@ import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contacts/Contact";
 import Footer from "./components/footer/Footer";
-import { HashRouter as Router, Route, Routes, } from "react-router-dom";
+import Experinece from "./components/experience/experience";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./home";
 
 function App() {
   return (
-    <Router >
+    <Router>
       <div className="App">
         <Navbar />
         <Routes>
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/experience" element={<Experinece />} />
         </Routes>
         <Footer />
       </div>

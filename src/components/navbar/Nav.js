@@ -70,6 +70,19 @@ const Nav = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
+                    to="/experience"
+                    className="nav-link pe-4"
+                    aria-current="page"
+                    activeClassName="active"
+                    onClick={() => {
+                      setHamShow(!HamShow);
+                    }}
+                  >
+                    Experience
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
                     to="/contact"
                     className="nav-link pe-4"
                     aria-current="page"
