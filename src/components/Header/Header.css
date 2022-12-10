@@ -38,8 +38,7 @@ h3 {
   }
 }
 @media screen and (max-width: 1240px) {
-  .ImgClass img {
-    width: 50%;
-    height: 50%;
+  .NameClass p {
+    display: none;
   }
 }

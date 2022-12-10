@@ -57,7 +57,7 @@ const Nav = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/portfolio"
+                    to="/services"
                     className="nav-link pe-4 "
                     aria-current="page"
                     activeClassName="active"
@@ -65,9 +65,10 @@ const Nav = () => {
                       setHamShow(!HamShow);
                     }}
                   >
-                    Portfolio
+                    Services
                   </NavLink>
                 </li>
+                
                 <li className="nav-item">
                   <NavLink
                     to="/experience"
@@ -79,6 +80,19 @@ const Nav = () => {
                     }}
                   >
                     Experience
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink
+                    to="/portfolio"
+                    className="nav-link pe-4 "
+                    aria-current="page"
+                    activeClassName="active"
+                    onClick={() => {
+                      setHamShow(!HamShow);
+                    }}
+                  >
+                    Portfolio
                   </NavLink>
                 </li>
                 <li className="nav-item">

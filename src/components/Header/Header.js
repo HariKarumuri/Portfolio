@@ -41,7 +41,7 @@ const Header = () => {
           </div>
           <div className="col d-flex justify-content-center align-items-center ImgClass">
             <figure>
-              <img src={image1} alt=" me" />
+              <img src={image1} alt=" me"  className="img-fluid"/>
             </figure>
           </div>
         </div>

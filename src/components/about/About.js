@@ -18,37 +18,42 @@ const About = () => {
               <li>Java</li>
               <li>JavaScript</li>
               <li>python</li>
-              <li>html</li>
-              <li>css</li>
-              
+              <li>R</li>
+              <li>SQL</li>
+              <li>Data structure</li>
             </ul>
           </div>
           <div className="col d-flex flex-column ">
-            <p className="text-white">frameWorks</p>
+            <p className="text-white">FrameWorks</p>
             <ul>
+              <li>html</li>
+              <li>Css</li>
               <li>express</li>
               <li>React js</li>
               <li>node js</li>
-              <li>bootstrap</li>
+              <li>MongoDB</li>
+              <li>github</li>
+              <li>NPM</li>
+              <li>Spline-3d</li>
+              <li>Fire-base</li>
             </ul>
           </div>
           <div className="col d-flex flex-column ">
             <p className="text-white">others</p>
             <ul>
-              <li>github</li>
-              <li>Data structure</li>
-              <li>blender</li>
+              <li>blender-3d</li>
               <li>adobe xd</li>
               <li>figma</li>
               <li>canva</li>
-              <li>UI/UX Design</li>
-              <li>Fire-base</li>
-
+              <li>Adobe Premiere Pro</li>
+              <li>Adobe photoshop</li>
+              <li>Adobe color</li>
+              <li>Ubuntu</li>
+              <li>bootstrap</li>
+              <li>unity</li>
             </ul>
           </div>
-          
         </div>
-        
       </div>
     </div>
   );

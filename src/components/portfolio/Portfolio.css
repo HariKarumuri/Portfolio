@@ -18,9 +18,7 @@ img{
   
   
 }
-img:hover{
-  filter: blur(2px);
-}
+
 .badge{
   text-transform: uppercase;
 }

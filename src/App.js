@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 import Experinece from "./components/experience/experience";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./home";
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/portfolio" element={<Portfolio />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/experience" element={<Experinece />} />
+          <Route exact path="/services" element={<Services />} />
         </Routes>
         <Footer />
       </div>

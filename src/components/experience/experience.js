@@ -9,8 +9,11 @@ const experience = () => {
 
   return (
     <>
-      <div className="bg1 p-5 ">
+      <div className="bg1 p-3 ">
         <div className="container ">
+        <h6 className="text-white text-center" id="#experience">
+        experience
+        </h6>
           <div className="row g-4">
             {projects.map((val, ind) => {
               return (
