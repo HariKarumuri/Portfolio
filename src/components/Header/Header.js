@@ -16,7 +16,7 @@ const Header = () => {
               <br />
               <span className="fs-4">
                 <TypeWriterEffect
-                  startDelay={2000}
+                  startDelay={1000}
                   cursorColor="#3F3D56"
                   multiText={[
                     "Coder",
