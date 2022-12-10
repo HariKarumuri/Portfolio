@@ -1,16 +1,19 @@
-import React from 'react'
+import React from "react";
 
 const cards = (props) => {
   return (
     <div>
-      
-          <h3>{props.Position} <span>{props.Company}</span></h3>
-          <h5>{props.duration}</h5>
-          <p>{props.desc}</p>
-          <img src={props.img} alt="" />
-          <a href={props.others}></a>
+      <div className="col-12 bg2 p-4 ExpCards ">
+        <h3 className="Exp_Head">
+          {props.Position} <span className="Exp_at">@</span>{" "}
+          <span>{props.company}</span>
+        </h3>
+        <h5 className="Exp_duration">{props.duration}</h5>
+        <p className="Exp_Desc">{props.desc}</p>
+        <a href={props.img}>View certificate</a>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default cards
+export default cards;

@@ -1,13 +1,15 @@
-.certiImg{
-  aspect-ratio: 1/1;
-  width: 1000px;
+.ExpCards{
+  border-radius: 14px;
+  
 }
+
+
 .Exp_Head span {
   color: var(--primary-green);
 }
 .Exp_at{
-  color: yellow !important;
-  font-size: 2.5rem ;
+  color: #6F6FA8 !important;
+  font-size: 2rem ;
 }
 .Exp_duration{
   color: rgb(172, 171, 171);

@@ -1,33 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import Cards from "./cards";
-import CertificateImg1 from './img1.jpg'
-import "./experience.css"
+import CertificateImg1 from "./img1.jpg";
+import "./experience.css";
+import Data from "./experienceApi";
 
 const experience = () => {
+  const [projects, setProjects] = useState(Data);
+
   return (
-    <div>
-      <div className="bg1 ">
-        <div className="container vh-100">
-          <h6 className="text-white text-center" id="about">
-            Experiences
-          </h6>
-          <h3 className="Exp_Head">
-            Front-End designer Intern <span className="Exp_at">@</span> <span>Gurukul Bytes</span>
-          </h3>
-          <h5 className="Exp_duration">12th May - 13th July</h5>
-          <p className="Exp_Desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-            aliquid reprehenderit quia illum, error voluptatibus explicabo
-            recusandae corporis natus minus consequuntur officiis quibusdam,
-            dolorum voluptate doloribus vero sed, neque maiores accusantium?
-            Laborum eius totam nostrum laboriosam tempora voluptates sit dolorem
-            aliquam? Quisquam incidunt perferendis molestiae dolorum et
-            recusandae quo repudiandae?
-          </p>
-          <a href="">View certificate</a>
+    <>
+      <div className="bg1 p-5 ">
+        <div className="container ">
+          <div className="row g-4">
+            {projects.map((val, ind) => {
+              return (
+                <Cards
+                  key={ind}
+                  Position={val.Position}
+                  company={val.company}
+                  duration={val.duration}
+                  desc={val.desc}
+                  img={val.img}
+                  others={val.others}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
