@@ -6,3 +6,31 @@
   padding: 1rem ;
   margin-top: 0.5rem;
 }
+.tagcloud--item {
+  color: var(--primary);
+  text-transform: uppercase;
+}
+.tagcloud--item:hover {
+  color: var(--primary-green);
+  cursor: pointer;
+}
+.About_Hidden{
+  display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .About_Hidden_mobile{
+    display: none !important;
+  }
+  .About_Hidden{
+    display: flex !important;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .About_Hidden_mobile{
+    display: none !important;
+  }
+  .About_Hidden{
+    display: flex !important;
+  }
+}
